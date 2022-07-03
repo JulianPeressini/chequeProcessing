@@ -14,7 +14,6 @@ dateRange = None
 
 if (len(sys.argv) > 5):
     if (sys.argv[5].find(":") != -1):
-        print("hola")
         dateRange = sys.argv[5]
     else:
         chequeStatus = sys.argv[5]
